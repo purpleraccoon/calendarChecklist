@@ -9,14 +9,15 @@ namespace Calendar_Checklist
 {
     public class CallendarConnection
     {
+        Application appOutlook;
         public CallendarConnection()
         {
+            appOutlook = new Application();
         }
-        /*
         public static Array[] getEvents()
         {
+            Array
         }
-        */
     }
 
 }
